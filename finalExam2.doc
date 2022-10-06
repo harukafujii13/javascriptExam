@@ -1,0 +1,7 @@
+
+function removeDupes(str){
+
+    let result = []
+    arr.forEach((item, index) => { if (arr.indexOf(item) == index) result.push(item) });
+    return result;
+  }
